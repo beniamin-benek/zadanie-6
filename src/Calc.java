@@ -2,7 +2,7 @@ class Calc {
 
     boolean isEven(int number) {
 
-        return (number % 2 == 0);
+        return number % 2 == 0;
 
     }
 
@@ -14,7 +14,7 @@ class Calc {
 
     double circleField(double radius) {
 
-        return Math.PI * radius *radius;
+        return Math.PI * radius * radius;
 
     }
 
